@@ -153,11 +153,7 @@ const roles = [
 
     "Python & Full Stack Developer",
 
-    "Django Developer",
-
     "AI & ML Enthusiast",
-
-    "Problem Solver"
 
 ];
 
