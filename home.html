@@ -1,0 +1,1572 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Suvvari Pradeep - Python & Full Stack Developer"
+    >
+
+    <title>
+        Suvvari Pradeep | Python & Full Stack Developer
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="{% static 'portfolio/css/style.css' %}"
+    >
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     NAVBAR
+====================================================== -->
+
+<header
+    class="navbar"
+    id="navbar"
+>
+
+    <div class="container nav-container">
+
+
+        <a
+            href="#home"
+            class="logo"
+        >
+            Pradeep<span>.</span>
+        </a>
+
+
+        <nav
+            class="nav-menu"
+            id="nav-menu"
+        >
+
+            <a
+                href="#home"
+                class="nav-link active"
+            >
+                Home
+            </a>
+
+
+            <a
+                href="#about"
+                class="nav-link"
+            >
+                About
+            </a>
+
+
+            <a
+                href="#skills"
+                class="nav-link"
+            >
+                Skills
+            </a>
+
+
+            <a
+                href="#experience"
+                class="nav-link"
+            >
+                Experience
+            </a>
+
+
+            <a
+                href="#projects"
+                class="nav-link"
+            >
+                Projects
+            </a>
+
+
+            <a
+                href="#education"
+                class="nav-link"
+            >
+                Education
+            </a>
+
+            <a
+                href="#certifications"
+                class="nav-link"
+            >
+                Certifications
+            </a>
+
+
+            <a
+                href="#contact"
+                class="nav-link"
+            >
+                Contact
+            </a>
+
+        </nav>
+
+
+        <button
+            class="menu-toggle"
+            id="menu-toggle"
+            aria-label="Open navigation menu"
+        >
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+    </div>
+
+</header>
+
+
+
+<!-- =====================================================
+     MAIN
+====================================================== -->
+
+<main>
+
+
+
+<!-- =====================================================
+     HERO SECTION
+====================================================== -->
+
+<section
+    id="home"
+    class="hero"
+>
+
+
+    <!-- Background -->
+
+    <div class="hero-glow hero-glow-one"></div>
+
+    <div class="hero-glow hero-glow-two"></div>
+
+    <div class="hero-grid"></div>
+
+
+
+    <div class="container hero-container">
+
+
+        <!-- =============================================
+             HERO CONTENT
+        ============================================== -->
+
+
+        <div class="hero-content">
+
+
+            <p class="hero-small-text">
+                HELLO, I'M
+            </p>
+
+
+            <h1 class="hero-name">
+
+                Suvvari<br>
+                Pradeep
+
+            </h1>
+
+
+            <div class="hero-role">
+
+                <span class="role-prefix">
+                    I'm a
+                </span>
+
+                <span
+                    id="typing-text"
+                    class="typing-text"
+                ></span>
+
+                <span class="typing-cursor">
+                    |
+                </span>
+
+            </div>
+
+
+            <p class="hero-description">
+
+                B.Tech student specializing in
+
+                <strong>
+                    Artificial Intelligence & Machine Learning
+                </strong>
+
+                with a strong interest in
+
+                <strong>
+                    Full Stack Development
+                </strong>.
+
+                I enjoy learning new technologies,
+                solving problems, and turning ideas
+                into practical projects.
+
+            </p>
+
+
+
+            <!-- Buttons -->
+
+            <div class="hero-buttons">
+
+
+                <a
+                    href="#projects"
+                    class="btn primary-btn"
+                >
+                    View Projects
+                </a>
+
+
+                <!-- ==============================
+                     RESUME - FIXED PATH
+                =============================== -->
+
+                <a
+                    href="{% static 'portfolio/resume/My_Resume_1.pdf' %}"
+                    class="btn secondary-btn"
+                    target="_blank"
+                    download
+                >
+                    Download Resume
+                </a>
+
+            </div>
+
+
+
+            <!-- Social Links -->
+
+            <div class="hero-socials">
+
+
+                <a
+                    href="https://github.com/Pradeep-Tech723"
+                    class="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    GitHub
+                </a>
+
+
+                <a
+                    href="https://www.linkedin.com/in/pradeep-suvvari"
+                    class="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    LinkedIn
+                </a>
+
+
+                <a
+                    href="mailto:pradeepsuvvari69@gmail.com"
+                    class="social-link"
+                >
+                    Email
+                </a>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- =============================================
+             PROFILE VISUAL
+        ============================================== -->
+
+
+        <div class="hero-profile">
+
+
+            <!-- Glow behind image -->
+
+            <div class="profile-glow"></div>
+
+
+
+            <!-- Decorative rotating ring -->
+
+            <div class="profile-ring profile-ring-one"></div>
+
+            <div class="profile-ring profile-ring-two"></div>
+
+
+
+            <!-- ==========================================
+                 PROFILE IMAGE - FIXED PATH
+            =========================================== -->
+
+            <div class="profile-image-wrapper">
+
+                <img
+                    src="{% static 'portfolio/images/me.png' %}"
+                    alt="Suvvari Pradeep"
+                    class="profile-image"
+                >
+
+            </div>
+
+
+
+            <!-- Floating information cards -->
+
+
+            <div
+                class="profile-badge profile-badge-top"
+            >
+
+                <span class="badge-icon">
+                    &lt;/&gt;
+                </span>
+
+
+                <div>
+
+                    <small>
+                        Focus
+                    </small>
+
+                    <strong>
+                        Full Stack
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+
+            <div
+                class="profile-badge profile-badge-bottom"
+            >
+
+                <span class="badge-icon">
+                    AI
+                </span>
+
+
+                <div>
+
+                    <small>
+                        Specialization
+                    </small>
+
+                    <strong>
+                        AI & ML
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Scroll -->
+
+    <a
+        href="#about"
+        class="scroll-indicator"
+    >
+
+        <span>
+            Scroll Down
+        </span>
+
+        <div class="scroll-arrow">
+            ↓
+        </div>
+
+    </a>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     ABOUT
+====================================================== -->
+
+<section
+    id="about"
+    class="section about-section"
+>
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <p class="section-label">
+                GET TO KNOW ME
+            </p>
+
+
+            <h2 class="section-title">
+                About Me
+            </h2>
+
+        </div>
+
+
+
+        <div class="about-content">
+
+
+            <div class="about-text">
+
+
+                <p>
+
+                    Hi, I'm
+                    <strong>Suvvari Pradeep</strong>,
+
+                    a B.Tech student specializing in
+
+                    <strong>
+                        Artificial Intelligence & Machine Learning
+                    </strong>,
+
+                    with a strong interest in
+
+                    <strong>
+                        Full Stack Development
+                    </strong>.
+
+                </p>
+
+
+                <p>
+
+                    I enjoy learning new technologies,
+                    solving problems, and turning ideas
+                    into practical projects.
+
+                </p>
+
+
+                <p>
+
+                    I have hands-on experience with
+                    Python, Django, Flask, SQL, HTML,
+                    CSS, TensorFlow, Keras, MySQL,
+                    Git, and GitHub.
+
+                </p>
+
+
+                <p>
+
+                    I'm passionate about learning,
+                    building, and growing as a developer.
+                    I'm always open to opportunities that
+                    help me gain experience and create
+                    meaningful solutions.
+
+                </p>
+
+
+            </div>
+
+
+
+            <div class="about-highlight">
+
+
+                <div class="highlight-card">
+
+                    <span class="highlight-number">
+                        4+
+                    </span>
+
+                    <span class="highlight-text">
+                        Projects
+                    </span>
+
+                </div>
+
+
+                <div class="highlight-card">
+
+                    <span class="highlight-number">
+                        9+
+                    </span>
+
+                    <span class="highlight-text">
+                        Technologies
+                    </span>
+
+                </div>
+
+
+                <div class="highlight-card">
+
+                    <span class="highlight-number">
+                        5
+                    </span>
+
+                    <span class="highlight-text">
+                        Certifications
+                    </span>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     SKILLS
+====================================================== -->
+
+<section
+    id="skills"
+    class="section"
+>
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <p class="section-label">
+                WHAT I WORK WITH
+            </p>
+
+            <h2 class="section-title">
+                Technical Skills
+            </h2>
+
+        </div>
+
+
+
+        <div class="skills-grid">
+
+
+            <div class="skill-card">
+
+                <span class="skill-number">
+                    01
+                </span>
+
+                <h3>
+                    Python
+                </h3>
+
+                <p>
+                    Programming & Backend
+                </p>
+
+            </div>
+
+
+
+            <div class="skill-card">
+
+                <span class="skill-number">
+                    02
+                </span>
+
+                <h3>
+                    Django
+                </h3>
+
+                <p>
+                    Web Development
+                </p>
+
+            </div>
+
+
+
+            <div class="skill-card">
+
+                <span class="skill-number">
+                    03
+                </span>
+
+                <h3>
+                    Flask
+                </h3>
+
+                <p>
+                    Web Applications
+                </p>
+
+            </div>
+
+
+
+            <div class="skill-card">
+
+                <span class="skill-number">
+                    04
+                </span>
+
+                <h3>
+                    SQL
+                </h3>
+
+                <p>
+                    Database Management
+                </p>
+
+            </div>
+
+
+
+            <div class="skill-card">
+
+                <span class="skill-number">
+                    05
+                </span>
+
+                <h3>
+                    HTML & CSS
+                </h3>
+
+                <p>
+                    Frontend Development
+                </p>
+
+            </div>
+
+
+
+            <div class="skill-card">
+
+                <span class="skill-number">
+                    06
+                </span>
+
+                <h3>
+                    TensorFlow
+                </h3>
+
+                <p>
+                    Machine Learning
+                </p>
+
+            </div>
+
+
+
+            <div class="skill-card">
+
+                <span class="skill-number">
+                    07
+                </span>
+
+                <h3>
+                    Keras
+                </h3>
+
+                <p>
+                    Deep Learning
+                </p>
+
+            </div>
+
+
+
+            <div class="skill-card">
+
+                <span class="skill-number">
+                    08
+                </span>
+
+                <h3>
+                    MySQL
+                </h3>
+
+                <p>
+                    Database
+                </p>
+
+            </div>
+
+
+
+            <div class="skill-card">
+
+                <span class="skill-number">
+                    09
+                </span>
+
+                <h3>
+                    Git & GitHub
+                </h3>
+
+                <p>
+                    Version Control
+                </p>
+
+            </div>
+
+
+
+            <div class="skill-card">
+
+                <span class="skill-number">
+                    10
+                </span>
+
+                <h3>
+                    REST APIs
+                </h3>
+
+                <p>
+                    API Development
+                </p>
+
+            </div>
+
+
+
+            <div class="skill-card">
+
+                <span class="skill-number">
+                    11
+                </span>
+
+                <h3>
+                    OpenCV
+                </h3>
+
+                <p>
+                    Computer Vision
+                </p>
+
+            </div>
+
+
+
+            <div class="skill-card">
+
+                <span class="skill-number">
+                    12
+                </span>
+
+                <h3>
+                    Linux / WSL
+                </h3>
+
+                <p>
+                    Development Environment
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     EXPERIENCE
+====================================================== -->
+
+<section
+    id="experience"
+    class="section"
+>
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <p class="section-label">
+                MY JOURNEY
+            </p>
+
+            <h2 class="section-title">
+                Experience
+            </h2>
+
+        </div>
+
+
+
+        <div class="timeline">
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+
+                <div class="timeline-card">
+
+
+                    <div class="timeline-header">
+
+
+                        <div>
+
+                            <h3>
+                                Full Stack Development Intern
+                            </h3>
+
+                            <h4>
+                                CodeAlpha
+                            </h4>
+
+                        </div>
+
+
+                        <span class="timeline-date">
+                            Jul 2026 – Jul 2026
+                        </span>
+
+
+                    </div>
+
+
+                    <span class="remote-label">
+                        Remote
+                    </span>
+
+
+                    <ul>
+
+                        <li>
+                            Developed responsive and
+                            user-friendly web applications
+                            as part of a virtual Full Stack
+                            Development internship.
+                        </li>
+
+
+                        <li>
+                            Worked with HTML, CSS, JavaScript,
+                            Python, Django, SQL, and Git/GitHub
+                            for full-stack application development.
+                        </li>
+
+
+                        <li>
+                            Implemented frontend and backend
+                            functionality with database
+                            integration and CRUD operations.
+                        </li>
+
+
+                        <li>
+                            Applied debugging and
+                            problem-solving skills while
+                            developing real-world software projects.
+                        </li>
+
+                    </ul>
+
+
+                    <div class="technology-tags">
+
+                        <span>Python</span>
+                        <span>Django</span>
+                        <span>Flask</span>
+                        <span>SQL</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>TensorFlow</span>
+                        <span>Keras</span>
+                        <span>MySQL</span>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     PROJECTS
+====================================================== -->
+
+<section
+    id="projects"
+    class="section"
+>
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <p class="section-label">
+                THINGS I'VE BUILT
+            </p>
+
+            <h2 class="section-title">
+                Featured Projects
+            </h2>
+
+        </div>
+
+
+
+        <div class="projects-grid">
+
+
+            <!-- Project 1 -->
+
+            <article class="project-card">
+
+                <span class="project-number">
+                    01
+                </span>
+
+
+                <h3>
+                    Handwritten Digit Recognition
+                </h3>
+
+
+                <p>
+                    A machine learning web application
+                    that recognizes handwritten digits
+                    from 0–9 with confidence scoring.
+                </p>
+
+
+                <div class="technology-tags">
+
+                    <span>Python</span>
+                    <span>TensorFlow</span>
+                    <span>Keras</span>
+                    <span>Flask</span>
+
+                </div>
+
+
+            </article>
+
+
+
+            <!-- Project 2 -->
+
+            <article class="project-card">
+
+                <span class="project-number">
+                    02
+                </span>
+
+
+                <h3>
+                    Language Translator
+                </h3>
+
+
+                <p>
+                    A responsive web application for
+                    translating text between multiple
+                    languages using a Flask backend
+                    and translation service/API.
+                </p>
+
+
+                <div class="technology-tags">
+
+                    <span>Python</span>
+                    <span>Flask</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+
+                </div>
+
+
+            </article>
+
+
+
+            <!-- Project 3 -->
+
+            <article class="project-card">
+
+                <span class="project-number">
+                    03
+                </span>
+
+
+                <h3>
+                    E-Commerce Store
+                </h3>
+
+
+                <p>
+                    A full-stack e-commerce application
+                    with authentication, products,
+                    shopping cart, checkout, and
+                    order processing.
+                </p>
+
+
+                <div class="technology-tags">
+
+                    <span>Django</span>
+                    <span>Python</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>SQLite</span>
+
+                </div>
+
+
+            </article>
+
+
+
+            <!-- Project 4 -->
+
+            <article class="project-card">
+
+                <span class="project-number">
+                    04
+                </span>
+
+
+                <h3>
+                    Social Media Platform
+                </h3>
+
+
+                <p>
+                    A Django-based social platform
+                    supporting authentication, posts,
+                    comments, image uploads,
+                    and follow/unfollow functionality.
+                </p>
+
+
+                <div class="technology-tags">
+
+                    <span>Django</span>
+                    <span>Python</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>SQLite</span>
+
+                </div>
+
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     EDUCATION
+====================================================== -->
+
+<section
+    id="education"
+    class="section"
+>
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <p class="section-label">
+                MY ACADEMIC JOURNEY
+            </p>
+
+            <h2 class="section-title">
+                Education
+            </h2>
+
+        </div>
+
+
+
+        <div class="education-timeline">
+
+
+            <div class="education-card">
+
+                <span class="education-year">
+                    2024 – 2028
+                </span>
+
+
+                <h3>
+                    Bachelor of Technology
+                </h3>
+
+
+                <h4>
+                    Computer Science Engineering
+                    (AI & ML)
+                </h4>
+
+
+                <p>
+                    Sandip University, Nashik
+                </p>
+
+
+                <span class="education-status">
+                    Expected Graduation: June 2028
+                </span>
+
+            </div>
+
+
+
+            <div class="education-card">
+
+                <span class="education-year">
+                    2022 – 2024
+                </span>
+
+
+                <h3>
+                    Intermediate (MPC)
+                </h3>
+
+
+                <h4>
+                    Tirumala Junior College
+                </h4>
+
+
+                <p>
+                    Visakhapatnam
+                </p>
+
+
+                <span class="education-score">
+                    96.7%
+                </span>
+
+            </div>
+
+
+
+            <div class="education-card">
+
+                <span class="education-year">
+                    2022
+                </span>
+
+
+                <h3>
+                    Secondary School
+                </h3>
+
+
+                <h4>
+                    Bhashyam High School
+                </h4>
+
+
+                <p>
+                    SSC
+                </p>
+
+
+                <span class="education-score">
+                    95%
+                </span>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CERTIFICATIONS
+====================================================== -->
+
+<section
+    id="certifications"
+    class="section"
+>
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <p class="section-label">
+                CONTINUOUS LEARNING
+            </p>
+
+            <h2 class="section-title">
+                Certifications
+            </h2>
+
+        </div>
+
+
+
+        <div class="certifications-grid">
+
+
+            <!-- Certificate 01 -->
+
+            <div class="certificate-card">
+
+                <div class="certificate-image-wrapper">
+
+                    <img
+                        src="{% static 'portfolio/certificates/certificate_ai.png' %}"
+                        alt="Getting Started with Artificial Intelligence Certificate"
+                        class="certificate-image"
+                    >
+
+                </div>
+
+
+                <div class="certificate-info">
+
+                    <span>
+                        IBM SkillsBuild
+                    </span>
+
+                    <h3>
+                        Getting Started with
+                        Artificial Intelligence
+                    </h3>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Certificate 02 -->
+
+            <div class="certificate-card">
+
+                <div class="certificate-image-wrapper">
+
+                    <img
+                        src="{% static 'portfolio/certificates/certificate_intro_ai.png' %}"
+                        alt="Introduction to Artificial Intelligence Certificate"
+                        class="certificate-image"
+                    >
+
+                </div>
+
+
+                <div class="certificate-info">
+
+                    <span>
+                        IBM SkillsBuild
+                    </span>
+
+                    <h3>
+                        Introduction to
+                        Artificial Intelligence
+                    </h3>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Certificate 03 -->
+
+            <div class="certificate-card">
+
+                <div class="certificate-image-wrapper">
+
+                    <img
+                        src="{% static 'portfolio/certificates/certificate_llm.png' %}"
+                        alt="Large Language Model Basics Certificate"
+                        class="certificate-image"
+                    >
+
+                </div>
+
+
+                <div class="certificate-info">
+
+                    <span>
+                        IBM SkillsBuild
+                    </span>
+
+                    <h3>
+                        Large Language Model Basics
+                    </h3>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Certificate 04 -->
+
+            <div class="certificate-card">
+
+                <div class="certificate-image-wrapper">
+
+                    <img
+                        src="{% static 'portfolio/certificates/certificate_prompting.png' %}"
+                        alt="Mastering the Art of Prompting Certificate"
+                        class="certificate-image"
+                    >
+
+                </div>
+
+
+                <div class="certificate-info">
+
+                    <span>
+                        IBM SkillsBuild
+                    </span>
+
+                    <h3>
+                        Mastering the Art of Prompting
+                    </h3>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Certificate 05 -->
+
+            <div class="certificate-card">
+
+                <div class="certificate-image-wrapper">
+
+                    <img
+                        src="{% static 'portfolio/certificates/certificate_codealpha.png' %}"
+                        alt="CodeAlpha Full Stack Development Internship Certificate"
+                        class="certificate-image"
+                    >
+
+                </div>
+
+
+                <div class="certificate-info">
+
+                    <span>
+                        CodeAlpha
+                    </span>
+
+                    <h3>
+                        Full Stack Development
+                        Internship
+                    </h3>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CONTACT
+====================================================== -->
+
+<section
+    id="contact"
+    class="section contact-section"
+>
+
+    <div class="container">
+
+
+        <p class="section-label">
+            HAVE A PROJECT IN MIND?
+        </p>
+
+
+        <h2 class="section-title">
+
+            Let's Build Something
+            <span>Together.</span>
+
+        </h2>
+
+
+        <p class="section-text">
+
+            I'm always interested in learning,
+            building new projects, and exploring
+            opportunities that help me grow
+            as a developer.
+
+        </p>
+
+
+
+        <div class="contact-buttons">
+
+
+            <a
+                href="mailto:pradeepsuvvari69@gmail.com"
+                class="btn primary-btn"
+            >
+                Send Me an Email
+            </a>
+
+
+            <a
+                href="https://github.com/Pradeep-Tech723"
+                class="btn secondary-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                GitHub
+            </a>
+
+
+            <a
+                href="https://www.linkedin.com/in/pradeep-suvvari"
+                class="btn secondary-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                LinkedIn
+            </a>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+</main>
+
+
+
+<!-- =====================================================
+     FOOTER
+====================================================== -->
+
+<footer class="footer">
+
+    <div class="container footer-container">
+
+
+        <p>
+
+            © 2026 Suvvari Pradeep.
+            All rights reserved.
+
+        </p>
+
+
+        <p>
+
+            Built with Python, Django & ❤️
+
+        </p>
+
+
+    </div>
+
+</footer>
+
+
+
+<!-- =====================================================
+     GSAP
+====================================================== -->
+
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+></script>
+
+
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+></script>
+
+
+<script
+    src="{% static 'portfolio/js/script.js' %}"
+></script>
+
+
+</body>
+
+</html>
